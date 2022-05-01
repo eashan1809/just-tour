@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.a2{
+width: 100px;
+cursor: pointer;
+}   
+.a1{
+   
+width: 85%;
+height: 15px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+top: 20px;
+}
+button
+{
+    padding: 10px 30px;
+    background-color: aquamarine;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px; 
+     
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+.a3{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+.side{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545D,#000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu{
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.side img,us-link img{
+  width: 25px;
+  margin: 5px auto; 
+  cursor: pointer; 
+}
+.social-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.us-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+
+}
+.boubals img{
+    width: 50px;
+    animation: boubals 7s linear infinite;
+
+
+}
+   .boubals {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       position: absolute;
+       bottom: -70px;
+   } 
+   @keyframes boubals{
+       0%{
+           transform: translateY(0);
+           opacity: 0;
+       }
+       50%{
+       
+        opacity: 1;
+    }
+    70%{
+     
+       
+        opacity: 1;
+    }
+   100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+   }
+   .boubals img:nth-child(1){
+       animation-delay: 2s;
+   }
+   .boubals img:nth-child(2){
+    animation-delay: 1s;
+}
+.boubals img:nth-child(3){
+    animation-delay: 2.3s;
+}
+.boubals img:nth-child(4){
+    animation-delay: 4s;
+}
+.boubals img:nth-child(5){
+    animation-delay: 1.6s;
+}
+.boubals img:nth-child(6){
+    animation-delay: 3.2s;
+}
+.boubals img:nth-child(7){
+    animation-delay: 2.3s;
+}
+
+   
+
