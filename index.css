@@ -35,6 +35,8 @@ button
     background-color: aquamarine;
     border: 1px solid blanchedalmond;
     border-radius: 20px; 
+    cursor: pointer;
+    transition: .3s;
      
 }
 button:hover{
